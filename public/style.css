@@ -1,0 +1,136 @@
+.alltasks {
+  margin: 1%;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  align-self: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  /* margin-left: 10%; */
+  /* margin: 10%; */
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+  box-shadow: black;
+  text-align: center;
+  color: white;
+}
+/* input {
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+} */
+#myDiv0,
+#myDiv1,
+#myDiv2,
+#myDiv3,
+#myDiv4,
+#myDiv5,
+#myDiv6,
+#myDiv7,
+#myDiv8 {
+  padding: 20px;
+  margin-left: 25%;
+  /* margin-top: -100; */
+  /* margin-top: 10px; */
+  position: absolute;
+  align-self: center;
+  align-content: center;
+  width: 50%;
+  /* background-color: black; */
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+
+  color: white;
+}
+.in {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: black;
+}
+body {
+  height: 1202px; /* Used to enable scrolling */
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+
+  color: white;
+}
+
+#first {
+  margin: auto;
+}
+.mybutton {
+  height: 40px;
+  border: solid;
+  border-color: black;
+  margin-left: 3%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+button {
+  margin: 1%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+  color: black;
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+
+h1 {
+  padding: 2%;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: -webkit-linear-gradient(#5ee7df, #b490ca);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#edit1,
+#edit2,
+#edit3,
+#edit4,
+#edit5,
+#edit6,
+#date0,
+#priority0,
+#state0 {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  margin: auto;
+  border-radius: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  height: 60px;
+  width: 100px;
+}
+#copyright {
+  text-align: center;
+}
+#canchor {
+  /* padding: 40%; */
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+}

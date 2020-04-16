@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5e8a4e7535bcbb0c9aae149c/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+  <!--End of Tawk.to Script-->
+  </head>
+  <body>
+      <!-- <img src="../img/keep.png" alt= "smiley face"> -->
+      <h1>Take a note</h1>
+    <div class="alltasks" position: absolute;>
+    
+        <label for="title">Title</label>
+        <input type="text" class="in" id="title" name="title" required />
+        <label for="description">Descr</label>
+        <input type="text" class="in" id="description" name="description" />
+        <label for="date">Due Date:</label>
+        <input type="date"  class="in" id="myDate" name="date" />
+        <label for="priority">Priority:</label>
+        <select id="priority">
+          <option value="high">High</option>
+          <option value="medium" selected="selected">Medium</option>
+          <option value="low">Low</option> 
+        </select>
+        <input
+          class="mybutton"
+          type="button"
+          id="submit"
+          onclick="addTask()"
+          value="Add Task"
+        />
+        
+      </div>
+      <h1>List of tasks</h1>
+
+      <div class="alltasks">
+        <div class="first">
+          <table class="table" id="taskTable"></table>
+          <script src="table.js"></script>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div id="copyright">
+        Copyright &copy 2020
+        <br>
+        <a id="canchor" href="mailto:abhishiek.mahajan@nagarro.com">  Abhishiek Mahajan</a>
+    </div>
+  </body>
+</html>
